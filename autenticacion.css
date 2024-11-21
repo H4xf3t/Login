@@ -1,0 +1,131 @@
+/* Fondo degradado animado */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(-45deg, #ff9a9e, #fad0c4, #fbc2eb, #a18cd1);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* Contenedor del formulario */
+.login-container {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-container h1 {
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.login-container input {
+    margin-bottom: 1rem;
+}
+
+.login-container button {
+    background-color: #6a11cb;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #2575fc;
+}
+
+.welcome-message {
+    display: none;
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+}
+section{
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 12px;
+    background-color: #f0f0f0;
+}
+.formulario-iniciosesion{
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+.formulario-crearcuenta{
+  padding-top: 45px;
+  padding-bottom: 60px;
+}
+.formulario-iniciosesion h1{
+text-align: center;
+padding-bottom: 12px;
+}
+.formulario-crearcuenta h1{
+  text-align: center;
+  padding-bottom: 12px;
+  }
+.formulario-iniciosesion a {
+  display: block;
+  text-align: center; /* Añade esta propiedad para alinear el enlace al centro */
+  margin-top: 20px;
+  color: #555;
+}
+.formulario-crearcuenta a {
+  display: block;
+  text-align: center; /* Añade esta propiedad para alinear el enlace al centro */
+  margin-top: 20px;
+  color: #555;
+}
+/* Estilos para el formulario */
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  height: 320px;
+}
+
+/* Estilos para los campos de entrada */
+input[type=email], input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+/* Estilos para el botón de envío */
+input[type=submit] {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  float: right;
+}
+
+/* Estilos para el botón de envío al pasar el ratón por encima */
+input[type=submit]:hover {
+  background-color: #0372e9;
+}
