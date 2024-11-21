@@ -8,13 +8,13 @@ import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.9.0/firebase
 import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut } from "https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey:,
-  authDomain:,
-  projectId:,
-  storageBucket:,
-  messagingSenderId:,
-  appId:,
-  measurementId:
+  apiKey: "AIzaSyAWvLVI64C1LVC1gkbM38fMgrWQUZJr3b4",
+  authDomain: "login-948d9.firebaseapp.com",
+  projectId: "login-948d9",
+  storageBucket: "login-948d9.firebasestorage.app",
+  messagingSenderId: "1017210831314",
+  appId: "1:1017210831314:web:a317cd78bb0320d008080b",
+  measurementId: "G-4TNH10J8DX"
 };
 
 const app = initializeApp(firebaseConfig);
